@@ -20,36 +20,36 @@
 
 ### 🏠 [Homepage](https://github.com/carloshilner/happy-app)
 
-## Install
+## Installing Frontend
 
 ```sh
 yarn --cwd ./web install
 ```
 
-## Usage
+## Frontend Usage
 
 ```sh
-yarn --cwd ./web dev
+yarn --cwd ./web start
 ```
 
-## Run tests
+## Run tests in Frontend
 
 ```sh
 yarn --cwd ./web test
 ```
 
-## Install Backend
+## Installing Backend
 
 ```sh
 yarn --cwd ./backend install
 ```
-## Database migration
+## Running Database migration
 
 ```sh
 yarn --cwd ./backend migration:run
 ```
 
-## Serve Backend
+## Starting Server Backend
 
 ```sh
 yarn --cwd ./backend dev
