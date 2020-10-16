@@ -75,7 +75,7 @@ const CreateOrphanage = () => {
             <legend>Dados</legend>
 
             <Map
-              center={[-3.833856,-38.4827392]}
+              center={[-3.833856, -38.4827392]}
               style={{ width: "100%", height: 280 }}
               zoom={15}
               onclick={handleMapClick}
@@ -87,7 +87,9 @@ const CreateOrphanage = () => {
                 <Marker
                   interactive={false}
                   icon={MapIcon}
-                  position={[position.latitude, position.longitude]}
+                  position={[
+                    position.latitude,
+                    position.longitude]}
                 />
               )}
             </Map>
@@ -97,8 +99,7 @@ const CreateOrphanage = () => {
               <input
                 id="name"
                 value={name}
-                onChange={(event) => setName(event.target.value)}
-              />
+                onChange={(event) => setName(event.target.value)} />
             </div>
 
             <div className="input-block">
@@ -108,8 +109,7 @@ const CreateOrphanage = () => {
               <textarea
                 id="name"
                 maxLength={300}
-                onChange={(event) => setAbout(event.target.value)}
-              />
+                onChange={(event) => setAbout(event.target.value)} />
             </div>
 
             <div className="input-block">
@@ -126,8 +126,7 @@ const CreateOrphanage = () => {
                   multiple
                   onChange={handleSelectImages}
                   type="file"
-                  id="image[]"
-                />
+                  id="image[]" />
               </div>
             </div>
           </fieldset>
@@ -139,16 +138,14 @@ const CreateOrphanage = () => {
               <label htmlFor="instructions">Instruções</label>
               <textarea
                 id="instructions"
-                onChange={(event) => setInstructions(event.target.value)}
-              />
+                onChange={(event) => setInstructions(event.target.value)} />
             </div>
 
             <div className="input-block">
               <label htmlFor="opening_hours">Horário de funcionamento</label>
               <input
                 id="opening_hours"
-                onChange={(event) => setOpeningHours(event.target.value)}
-              />
+                onChange={(event) => setOpeningHours(event.target.value)} />
             </div>
 
             <div className="input-block">
@@ -158,15 +155,13 @@ const CreateOrphanage = () => {
                 <button
                   type="button"
                   className={open_on_weekends ? "active" : ""}
-                  onClick={() => setOpenOnWeekends(true)}
-                >
+                  onClick={() => setOpenOnWeekends(true)}>
                   Sim
                 </button>
                 <button
                   type="button"
                   className={!open_on_weekends ? "active" : ""}
-                  onClick={() => setOpenOnWeekends(false)}
-                >
+                  onClick={() => setOpenOnWeekends(false)}>
                   Não
                 </button>
               </div>
