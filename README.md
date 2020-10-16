@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/carloshilner/happy-app/"><img src="https://raw.githubusercontent.com/carloshilner/happy-app/master/web/src/images/logo.svg" alt="Happy-app " width="200"></a>
   <br>
-  Happy-app 👋
+  Happy-app 
   <br>
 </h1>
 <p>
