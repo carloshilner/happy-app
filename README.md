@@ -13,9 +13,7 @@
   <a href="web/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/hebertcisco" target="_blank">
-    <img alt="Twitter: hebertcisco" src="https://img.shields.io/twitter/follow/hebertcisco.svg?style=social" />
-  </a>
+  
 </p>
 
 > Happy - Visit orphanages and change many children's day.
