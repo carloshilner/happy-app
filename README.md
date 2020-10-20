@@ -54,4 +54,13 @@ yarn --cwd ./backend migration:run
 ```sh
 yarn --cwd ./backend dev
 ```
+## Installing Mobile
 
+```sh
+yarn --cwd ./mobile install
+```
+
+## Starting Mobile
+
+```sh
+yarn --cwd ./mobile start

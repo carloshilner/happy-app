@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
@@ -40,3 +41,24 @@ export default function Routes() {
     )
 }
 
+=======
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+import OrphanagesMap from './pages/OrphanagesMap'
+import OrphanageDetails from './pages/OrphanageDetails'
+
+const { Navigator, Screen } = createStackNavigator()
+
+export default function Routes() {
+    return (
+        <NavigationContainer>
+            <Navigator screenOptions={{ headerShown: false }}>
+                <Screen name="OrphanagesMap" component={OrphanagesMap} />
+                <Screen name="OrphanageDetails" component={OrphanageDetails} />
+            </Navigator>
+        </NavigationContainer>
+    )
+}
+
+>>>>>>> 4ea6e1f4e6d0bb10cb24c297e4a5cbe8417cda79
