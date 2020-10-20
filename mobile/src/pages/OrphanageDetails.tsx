@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import { Image, View, ScrollView, Text, StyleSheet, Dimensions } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
@@ -196,13 +195,3 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   }
 })
-=======
-import React from 'react'
-import { View } from 'react-native'
-
-export default function OrphanageDetails(){
-    return (
-        <View />
-    )
-}
->>>>>>> 4ea6e1f4e6d0bb10cb24c297e4a5cbe8417cda79
